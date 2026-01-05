@@ -1,0 +1,110 @@
+body{
+    background: color #f4f4f4;;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+    padding-bottom: 30px ;
+}
+
+#main-header{
+    background-color: crimson;
+    color: #fff;
+}
+
+#main-header h1{
+    text-align: center;
+    padding-top: 3%;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+a:hover{
+    background:green;
+}
+
+#ac-services{
+    padding: 20px;
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.service{
+    background: #f7f7f7;
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+}
+
+.cta{
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid;
+}
+
+.cta .book-us-now-btn{
+    background: #fff;
+    color:#007bff;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta .book-us-now-btn:hover{
+    opacity: 0.8;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
